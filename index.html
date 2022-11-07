@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container bg-black">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-4 text-center mb-3">length Converter</h1>
+            <form>
+              <div class="form-group">
+                <input id="mInput" type="number" class="form-control form-control-lg" placeholder="Enter meter...">
+              </div>
+            </form>
+            <div id="output">
+              <div class="card card-primary mb-3 bg-danger">
+                <div class="card-block">
+                  <h4>meter:</h4>
+                  <div id="meOutput"></div>
+                </div>
+              </div>
+      
+              <div class="card card-success mb-3 bg-primary">
+                <div class="card-block">
+                  <h4>Kilometer:</h4>
+                  <div id="kiOutput"></div>
+                </div>
+              </div>
+      
+              <div class="card card-danger mb-3 bg-success">
+                <div class="card-block">
+                  <h4>decimeter:</h4>
+                  <div id="deOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-secondary">
+                <div class="card-block">
+                  <h4>centemeter:</h4>
+                  <div id="ceOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-warning">
+                <div class="card-block">
+                  <h4>millimeter:</h4>
+                  <div id="miOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-secondary"> 
+                <div class="card-block">
+                  <h4>nicrometer:</h4>
+                  <div id="micOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-success">
+                <div class="card-block">
+                  <h4>nanometer:</h4>
+                  <div id="naOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-danger">
+                <div class="card-block">
+                  <h4>mile:</h4>
+                  <div id="mileOutput"></div>
+                </div>
+              </div>
+              <div class="card card-danger mb-3 bg-warning">
+                <div class="card-block">
+                  <h4>yard:</h4>
+                  <div id="yardOutput"></div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+       <script src="script.js"></script>
+  </body>
+</html>

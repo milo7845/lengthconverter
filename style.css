@@ -1,0 +1,17 @@
+
+
+body{
+    
+    margin-top:70px;
+    background:rgb(32, 9, 9);
+    color:#fff;
+  }
+  h1{
+    color: rgb(164, 230, 33);
+  }
+  h4{
+    color: white;
+  }
+  #mInput{
+    color: rgb(7, 0, 0);
+  }
